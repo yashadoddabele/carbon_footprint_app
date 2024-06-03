@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323D947C2BAF9CEE00F8AF33 /* LogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D947B2BAF9CEE00F8AF33 /* LogDetailView.swift */; };
+		327AC9F42BD3122100431F83 /* FollowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AC9F32BD3122100431F83 /* FollowingView.swift */; };
+		329367422BAF4A51008C4238 /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329367412BAF4A51008C4238 /* PreviewContainer.swift */; };
+		32ADE1D72BAB824200F80EB6 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ADE1D62BAB824200F80EB6 /* NewsView.swift */; };
+		32ADE1D92BAB824A00F80EB6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ADE1D82BAB824A00F80EB6 /* MapView.swift */; };
+		32ADE1DB2BAB825700F80EB6 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ADE1DA2BAB825700F80EB6 /* LogView.swift */; };
+		32ADE1DF2BAB826F00F80EB6 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ADE1DE2BAB826F00F80EB6 /* NewsViewModel.swift */; };
+		32ADE1E12BAB827500F80EB6 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ADE1E02BAB827500F80EB6 /* MapViewModel.swift */; };
+		32ADE1E32BAB827D00F80EB6 /* LogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ADE1E22BAB827D00F80EB6 /* LogViewModel.swift */; };
+		32ADE1E52BAB828800F80EB6 /* ProfileModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ADE1E42BAB828800F80EB6 /* ProfileModelData.swift */; };
+		32ADE1F32BAB84F000F80EB6 /* TabContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ADE1F22BAB84F000F80EB6 /* TabContainer.swift */; };
+		32ADE1F62BAB9C8900F80EB6 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ADE1F52BAB9C8900F80EB6 /* APIError.swift */; };
+		32ADE1F82BAB9C9500F80EB6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ADE1F72BAB9C9500F80EB6 /* APIClient.swift */; };
+		32ADE1FB2BAB9D2300F80EB6 /* NewsAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ADE1FA2BAB9D2300F80EB6 /* NewsAPIClient.swift */; };
+		32ADE1FD2BAB9D2D00F80EB6 /* NewsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ADE1FC2BAB9D2D00F80EB6 /* NewsEndpoint.swift */; };
+		32ADE2002BAB9D8300F80EB6 /* HeadlinesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ADE1FF2BAB9D8300F80EB6 /* HeadlinesLoader.swift */; };
+		8417F7462BBDAD3300B0671C /* TextFieldWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417F7442BBDAD3300B0671C /* TextFieldWithLabel.swift */; };
+		8417F7472BBDAD3300B0671C /* AvatarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417F7452BBDAD3300B0671C /* AvatarImage.swift */; };
+		8417F74B2BBDAEEB00B0671C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417F74A2BBDAEEB00B0671C /* ProfileView.swift */; };
+		8417F74D2BBDAFE700B0671C /* PhotoTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417F74C2BBDAFE700B0671C /* PhotoTransferService.swift */; };
+		8417F7502BBDB12200B0671C /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417F74F2BBDB12200B0671C /* LoginScreen.swift */; };
+		8417F7522BBDBBAF00B0671C /* ProfileEditForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417F7512BBDBBAF00B0671C /* ProfileEditForm.swift */; };
+		847DB73F2BCDDB02000620C3 /* RegistrationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DB73E2BCDDB02000620C3 /* RegistrationForm.swift */; };
+		D314125F2BD5B62600CB91E3 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D314125E2BD5B62600CB91E3 /* Achievement.swift */; };
+		D35261912BAB627D00896D62 /* CarbonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35261902BAB627D00896D62 /* CarbonApp.swift */; };
+		D35261932BAB627D00896D62 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35261922BAB627D00896D62 /* HomeView.swift */; };
+		D35261952BAB627D00896D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35261942BAB627D00896D62 /* Assets.xcassets */; };
+		D35261982BAB627D00896D62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35261972BAB627D00896D62 /* Preview Assets.xcassets */; };
+		D3605C022BB492B90092E6C3 /* SocialMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3605C012BB492B90092E6C3 /* SocialMediaView.swift */; };
+		D3ECEB822BAB64760025346C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ECEB812BAB64760025346C /* User.swift */; };
+		D3ECEB842BAB64900025346C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ECEB832BAB64900025346C /* HomeViewModel.swift */; };
+		D3ECEB862BAB64A30025346C /* ClimateIqAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ECEB852BAB64A30025346C /* ClimateIqAPIClient.swift */; };
+		D3ECEB882BAB64B20025346C /* LogDataForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ECEB872BAB64B20025346C /* LogDataForm.swift */; };
+		D3F3DD5B2BB8C1BA003B297D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3DD5A2BB8C1BA003B297D /* Profile.swift */; };
+		D3FB296A2BBB369400F9D3CE /* FakeAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB29692BBB369400F9D3CE /* FakeAuthenticationService.swift */; };
+		F33D2FF72BBF303600FF7BF1 /* ClimateIQEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D2FF62BBF303600FF7BF1 /* ClimateIQEndpoint.swift */; };
+		F33D2FF92BBF312700FF7BF1 /* ClimateIQViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D2FF82BBF312700FF7BF1 /* ClimateIQViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		323D947B2BAF9CEE00F8AF33 /* LogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDetailView.swift; sourceTree = "<group>"; };
+		327AC9F32BD3122100431F83 /* FollowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingView.swift; sourceTree = "<group>"; };
+		329367412BAF4A51008C4238 /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
+		32ADE1D62BAB824200F80EB6 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		32ADE1D82BAB824A00F80EB6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		32ADE1DA2BAB825700F80EB6 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		32ADE1DE2BAB826F00F80EB6 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		32ADE1E02BAB827500F80EB6 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		32ADE1E22BAB827D00F80EB6 /* LogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewModel.swift; sourceTree = "<group>"; };
+		32ADE1E42BAB828800F80EB6 /* ProfileModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModelData.swift; sourceTree = "<group>"; };
+		32ADE1F22BAB84F000F80EB6 /* TabContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContainer.swift; sourceTree = "<group>"; };
+		32ADE1F52BAB9C8900F80EB6 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		32ADE1F72BAB9C9500F80EB6 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		32ADE1FA2BAB9D2300F80EB6 /* NewsAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIClient.swift; sourceTree = "<group>"; };
+		32ADE1FC2BAB9D2D00F80EB6 /* NewsEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsEndpoint.swift; sourceTree = "<group>"; };
+		32ADE1FF2BAB9D8300F80EB6 /* HeadlinesLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesLoader.swift; sourceTree = "<group>"; };
+		8417F7442BBDAD3300B0671C /* TextFieldWithLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldWithLabel.swift; sourceTree = "<group>"; };
+		8417F7452BBDAD3300B0671C /* AvatarImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarImage.swift; sourceTree = "<group>"; };
+		8417F74A2BBDAEEB00B0671C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8417F74C2BBDAFE700B0671C /* PhotoTransferService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTransferService.swift; sourceTree = "<group>"; };
+		8417F74F2BBDB12200B0671C /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		8417F7512BBDBBAF00B0671C /* ProfileEditForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditForm.swift; sourceTree = "<group>"; };
+		847DB73E2BCDDB02000620C3 /* RegistrationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationForm.swift; sourceTree = "<group>"; };
+		D314125E2BD5B62600CB91E3 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		D352618D2BAB627D00896D62 /* carbon-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "carbon-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35261902BAB627D00896D62 /* CarbonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonApp.swift; sourceTree = "<group>"; };
+		D35261922BAB627D00896D62 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D35261942BAB627D00896D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35261972BAB627D00896D62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3605C012BB492B90092E6C3 /* SocialMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaView.swift; sourceTree = "<group>"; };
+		D3ECEB812BAB64760025346C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D3ECEB832BAB64900025346C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D3ECEB852BAB64A30025346C /* ClimateIqAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateIqAPIClient.swift; sourceTree = "<group>"; };
+		D3ECEB872BAB64B20025346C /* LogDataForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDataForm.swift; sourceTree = "<group>"; };
+		D3F3DD5A2BB8C1BA003B297D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D3FB29692BBB369400F9D3CE /* FakeAuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeAuthenticationService.swift; sourceTree = "<group>"; };
+		F33D2FF62BBF303600FF7BF1 /* ClimateIQEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateIQEndpoint.swift; sourceTree = "<group>"; };
+		F33D2FF82BBF312700FF7BF1 /* ClimateIQViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateIQViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D352618A2BAB627D00896D62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32ADE1F42BAB9C7700F80EB6 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				32ADE1F52BAB9C8900F80EB6 /* APIError.swift */,
+				32ADE1F72BAB9C9500F80EB6 /* APIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		32ADE1F92BAB9CF100F80EB6 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				32ADE1FA2BAB9D2300F80EB6 /* NewsAPIClient.swift */,
+				32ADE1FC2BAB9D2D00F80EB6 /* NewsEndpoint.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		32ADE1FE2BAB9D7600F80EB6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8417F74C2BBDAFE700B0671C /* PhotoTransferService.swift */,
+				32ADE1FF2BAB9D8300F80EB6 /* HeadlinesLoader.swift */,
+				D3FB29692BBB369400F9D3CE /* FakeAuthenticationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8417F7432BBDAD2300B0671C /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				8417F7452BBDAD3300B0671C /* AvatarImage.swift */,
+				8417F7442BBDAD3300B0671C /* TextFieldWithLabel.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		8417F74E2BBDB00200B0671C /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				8417F7512BBDBBAF00B0671C /* ProfileEditForm.swift */,
+				8417F74F2BBDB12200B0671C /* LoginScreen.swift */,
+				8417F74A2BBDAEEB00B0671C /* ProfileView.swift */,
+				847DB73E2BCDDB02000620C3 /* RegistrationForm.swift */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		D35261842BAB627D00896D62 = {
+			isa = PBXGroup;
+			children = (
+				D352618F2BAB627D00896D62 /* carbon-app */,
+				D352618E2BAB627D00896D62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D352618E2BAB627D00896D62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D352618D2BAB627D00896D62 /* carbon-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D352618F2BAB627D00896D62 /* carbon-app */ = {
+			isa = PBXGroup;
+			children = (
+				8417F7432BBDAD2300B0671C /* Widgets */,
+				32ADE1FE2BAB9D7600F80EB6 /* Services */,
+				D3ECEB802BAB63E30025346C /* Utilities */,
+				D3ECEB7F2BAB63DE0025346C /* API */,
+				D3ECEB7E2BAB63CC0025346C /* ViewDataModels */,
+				D3ECEB7D2BAB63C30025346C /* Views */,
+				D3ECEB7C2BAB63BC0025346C /* Model */,
+				D35261902BAB627D00896D62 /* CarbonApp.swift */,
+				32ADE1F22BAB84F000F80EB6 /* TabContainer.swift */,
+				D35261942BAB627D00896D62 /* Assets.xcassets */,
+				D35261962BAB627D00896D62 /* Preview Content */,
+			);
+			path = "carbon-app";
+			sourceTree = "<group>";
+		};
+		D35261962BAB627D00896D62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D35261972BAB627D00896D62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3ECEB7C2BAB63BC0025346C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3ECEB812BAB64760025346C /* User.swift */,
+				D3F3DD5A2BB8C1BA003B297D /* Profile.swift */,
+				D314125E2BD5B62600CB91E3 /* Achievement.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3ECEB7D2BAB63C30025346C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8417F74E2BBDB00200B0671C /* Accounts */,
+				D35261922BAB627D00896D62 /* HomeView.swift */,
+				32ADE1D62BAB824200F80EB6 /* NewsView.swift */,
+				32ADE1D82BAB824A00F80EB6 /* MapView.swift */,
+				323D947B2BAF9CEE00F8AF33 /* LogDetailView.swift */,
+				32ADE1DA2BAB825700F80EB6 /* LogView.swift */,
+				D3605C012BB492B90092E6C3 /* SocialMediaView.swift */,
+				327AC9F32BD3122100431F83 /* FollowingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3ECEB7E2BAB63CC0025346C /* ViewDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				D3ECEB832BAB64900025346C /* HomeViewModel.swift */,
+				32ADE1DE2BAB826F00F80EB6 /* NewsViewModel.swift */,
+				32ADE1E02BAB827500F80EB6 /* MapViewModel.swift */,
+				32ADE1E22BAB827D00F80EB6 /* LogViewModel.swift */,
+				32ADE1E42BAB828800F80EB6 /* ProfileModelData.swift */,
+				329367412BAF4A51008C4238 /* PreviewContainer.swift */,
+				F33D2FF82BBF312700FF7BF1 /* ClimateIQViewModel.swift */,
+			);
+			path = ViewDataModels;
+			sourceTree = "<group>";
+		};
+		D3ECEB7F2BAB63DE0025346C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F33D2FF52BBF2FF700FF7BF1 /* ClimateIQ */,
+				32ADE1F42BAB9C7700F80EB6 /* APIClient */,
+				32ADE1F92BAB9CF100F80EB6 /* News */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		D3ECEB802BAB63E30025346C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D3ECEB872BAB64B20025346C /* LogDataForm.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F33D2FF52BBF2FF700FF7BF1 /* ClimateIQ */ = {
+			isa = PBXGroup;
+			children = (
+				D3ECEB852BAB64A30025346C /* ClimateIqAPIClient.swift */,
+				F33D2FF62BBF303600FF7BF1 /* ClimateIQEndpoint.swift */,
+			);
+			path = ClimateIQ;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D352618C2BAB627D00896D62 /* carbon-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D352619B2BAB627D00896D62 /* Build configuration list for PBXNativeTarget "carbon-app" */;
+			buildPhases = (
+				D35261892BAB627D00896D62 /* Sources */,
+				D352618A2BAB627D00896D62 /* Frameworks */,
+				D352618B2BAB627D00896D62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "carbon-app";
+			productName = "carbon-app";
+			productReference = D352618D2BAB627D00896D62 /* carbon-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35261852BAB627D00896D62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D352618C2BAB627D00896D62 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = D35261882BAB627D00896D62 /* Build configuration list for PBXProject "carbon-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D35261842BAB627D00896D62;
+			productRefGroup = D352618E2BAB627D00896D62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D352618C2BAB627D00896D62 /* carbon-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D352618B2BAB627D00896D62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35261982BAB627D00896D62 /* Preview Assets.xcassets in Resources */,
+				D35261952BAB627D00896D62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35261892BAB627D00896D62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32ADE1F32BAB84F000F80EB6 /* TabContainer.swift in Sources */,
+				8417F74D2BBDAFE700B0671C /* PhotoTransferService.swift in Sources */,
+				8417F7472BBDAD3300B0671C /* AvatarImage.swift in Sources */,
+				D3FB296A2BBB369400F9D3CE /* FakeAuthenticationService.swift in Sources */,
+				D3ECEB882BAB64B20025346C /* LogDataForm.swift in Sources */,
+				32ADE1D92BAB824A00F80EB6 /* MapView.swift in Sources */,
+				847DB73F2BCDDB02000620C3 /* RegistrationForm.swift in Sources */,
+				32ADE1E32BAB827D00F80EB6 /* LogViewModel.swift in Sources */,
+				323D947C2BAF9CEE00F8AF33 /* LogDetailView.swift in Sources */,
+				D3F3DD5B2BB8C1BA003B297D /* Profile.swift in Sources */,
+				F33D2FF72BBF303600FF7BF1 /* ClimateIQEndpoint.swift in Sources */,
+				D35261932BAB627D00896D62 /* HomeView.swift in Sources */,
+				8417F7522BBDBBAF00B0671C /* ProfileEditForm.swift in Sources */,
+				329367422BAF4A51008C4238 /* PreviewContainer.swift in Sources */,
+				D35261912BAB627D00896D62 /* CarbonApp.swift in Sources */,
+				32ADE1E52BAB828800F80EB6 /* ProfileModelData.swift in Sources */,
+				32ADE1FB2BAB9D2300F80EB6 /* NewsAPIClient.swift in Sources */,
+				32ADE1D72BAB824200F80EB6 /* NewsView.swift in Sources */,
+				32ADE1DF2BAB826F00F80EB6 /* NewsViewModel.swift in Sources */,
+				D3ECEB822BAB64760025346C /* User.swift in Sources */,
+				D3ECEB842BAB64900025346C /* HomeViewModel.swift in Sources */,
+				D3605C022BB492B90092E6C3 /* SocialMediaView.swift in Sources */,
+				32ADE1DB2BAB825700F80EB6 /* LogView.swift in Sources */,
+				8417F74B2BBDAEEB00B0671C /* ProfileView.swift in Sources */,
+				D3ECEB862BAB64A30025346C /* ClimateIqAPIClient.swift in Sources */,
+				D314125F2BD5B62600CB91E3 /* Achievement.swift in Sources */,
+				8417F7502BBDB12200B0671C /* LoginScreen.swift in Sources */,
+				32ADE1FD2BAB9D2D00F80EB6 /* NewsEndpoint.swift in Sources */,
+				327AC9F42BD3122100431F83 /* FollowingView.swift in Sources */,
+				32ADE1E12BAB827500F80EB6 /* MapViewModel.swift in Sources */,
+				F33D2FF92BBF312700FF7BF1 /* ClimateIQViewModel.swift in Sources */,
+				8417F7462BBDAD3300B0671C /* TextFieldWithLabel.swift in Sources */,
+				32ADE1F82BAB9C9500F80EB6 /* APIClient.swift in Sources */,
+				32ADE2002BAB9D8300F80EB6 /* HeadlinesLoader.swift in Sources */,
+				32ADE1F62BAB9C8900F80EB6 /* APIError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D35261992BAB627D00896D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D352619A2BAB627D00896D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D352619C2BAB627D00896D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"carbon-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.duke.ysd3.carbon-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D352619D2BAB627D00896D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"carbon-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.duke.ysd3.carbon-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35261882BAB627D00896D62 /* Build configuration list for PBXProject "carbon-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35261992BAB627D00896D62 /* Debug */,
+				D352619A2BAB627D00896D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D352619B2BAB627D00896D62 /* Build configuration list for PBXNativeTarget "carbon-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D352619C2BAB627D00896D62 /* Debug */,
+				D352619D2BAB627D00896D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D35261852BAB627D00896D62 /* Project object */;
+}
