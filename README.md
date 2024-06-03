@@ -24,6 +24,12 @@
 * Ability to view a public view of other users
 * Creating authentication so users have their own accounts they can log in / sign up for
 
+  <img width="346" alt="Screenshot 2024-06-03 at 3 33 32 PM" src="https://github.com/yashadoddabele/carbon_footprint_app/assets/110857917/0ea9ff1b-435b-4a9d-b8d4-8e5e38beb4cd">
+<img width="346" alt="Screenshot 2024-06-03 at 3 34 01 PM" src="https://github.com/yashadoddabele/carbon_footprint_app/assets/110857917/a094a07a-f3f4-4081-bdc7-3a133ad9550a">
+<img width="346" alt="Screenshot 2024-06-03 at 3 34 12 PM" src="https://github.com/yashadoddabele/carbon_footprint_app/assets/110857917/253d5c56-f60d-4cc7-90ea-08567d9fe0ef">
+<img width="346" alt="Screenshot 2024-06-03 at 3 34 37 PM" src="https://github.com/yashadoddabele/carbon_footprint_app/assets/110857917/72e1e8de-cfdb-4118-94e0-b695b90125e6">
+
+
 
 
 
